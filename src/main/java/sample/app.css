@@ -1,0 +1,45 @@
+.gridstyle{
+	-fx-background-color: #A1E9FF;
+	-fx-grid-lines-visible: true;
+}
+
+.button1{
+	-fx-background-color: #82B0D9;
+	-fx-font-color: #355B8C;
+}
+//  linear-gradient(#20262B 0%, #1f2429 20%, #191d22 100%),
+//  linear-gradient(#20262b, #191d22),
+
+.button {
+    -fx-background-color: #355B8C,
+
+        linear-gradient(#134775 0%, #0b2238 20%, #3c5069 100%),
+        linear-gradient(#134775, #3c5069),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Cambria";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 14px;
+    -fx-padding: 10 10 10 10;
+}
+.dark-blue Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+.text-field{
+
+    -fx-font-size: 16px;
+    -fx-font-family: "Cambria";
+}
+
+.text-area{
+
+    -fx-highlight-fill: lightgray;
+    -fx-highlight-text-fill: firebrick;
+    -fx-font-size: 18px;
+    -fx-font-family: "Cambria";
+
+}
